@@ -1,7 +1,20 @@
 <!DOCTYPE html>
 <html>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <head><title>태기세상</title></head>
-    <body>
-        <center><h1>정옥이 바보~</h1></center>
-    </body>
+    <script>
+        $(document).ready(function(){
+            $('#main').css({'text-align' : 'center'});
+            $('#a').css({'color' : 'blue'});
+            $('#a').click(function(){
+                alert('농담이지~');
+            });
+        });
+    </script>
+
+<body>
+  <div id="main">
+    <font id="a">정옥이 바보~</font> <== 이거 클릭해봐!!!
+  </div>
+</body>
 </html>
