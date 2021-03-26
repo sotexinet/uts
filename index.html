@@ -6,28 +6,24 @@
     <TITLE>UT'S의 Dev-Study</TITLE>
     <script>
         $(document).ready(function(){
-	        $('h1').css({'color' : 'black'});
-            $('ul').css(
-                {
-                    'color' : 'red',
-                    'font-size' : '20pt'
-                }
-            );
+            $('subject')({
+                'font-color' : 'blue'
+            })
         });
     </script>
 </HEAD>
 
 <BODY>
-    <h1>MJ House</h1>
-    <h4>가족 구성원</h4>
-    <ul>
+    <h1 class="subject">MJ House</h1>
+    <h4 class='list'>가족 구성원</h4>
+    <ul id='familys'>
         <li>더 예쁜 민지</li>
         <li>어여쁜 엄마</li>
         <li>아빠 짱 완전 짱</li>
     </ul>
 
-    <h4>민지가 좋아하는 것</h4>
-    <ol>
+    <h4 class='list'>민지가 좋아하는 것</h4>
+    <ol id='minji-like'>
         <li>엄빠랑 비슷하긴 하지 : 엄마</li>
         <li>엄빠랑 비슷하긴 하지 : 아빠</li>
         <li>엄빠랑 비슷하긴 하지 : 친구들</li>
@@ -36,8 +32,8 @@
         <li>엄빠랑 비슷하긴 하지 : 역사</li>
     </ol>
 
-    <h4>엄마가 좋아하는 것</h4>
-    <ol>
+    <h4 class='list'>엄마가 좋아하는 것</h4>
+    <ol id='mom-like'>
         <li>민지랑 아빠</li>    
         <li>전화하기</li>    
     </ol>
